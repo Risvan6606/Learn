@@ -26,6 +26,7 @@ const mongoose= require('mongoose')
         default:0
     }
 })
+"this is master"
 
 module.exports= mongoose.model('user',userSchema)
 
